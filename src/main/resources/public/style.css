@@ -23,7 +23,7 @@ body {
   position: relative;
   float: left;
   width: 50%;
-  height: 100%;
+  height: 120%;
   background: #fff;
   padding: 30px;
   border-radius: 10px 0px 0px 0px;
@@ -99,7 +99,7 @@ body {
 #description {
   float: right;
   width: 50%;
-  height: 100%;
+  height: 120%;
   background: linear-gradient(to bottom, #76D2FF, #07E7D7);
   text-align: center;
   border-radius: 0px 10px 10px 0px;
