@@ -1,3 +1,3 @@
 # payment-email-gateway
-Payment Web Service  
-The service basically send a email with the pdf that have just bought, once payment is succesful.
+Paystack Payment Web Service  
+The service basically downloads a pdf that has been just bought, once payment is succesful.
