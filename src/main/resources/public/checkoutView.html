@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buy cool new product</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="checkout.js"></script>
+</head>
+<body>
+<section>
+  <main id='container'>
+    <aside id='info'>
+      <label for='paymentMethod'>Payment Method</label>
+      <select name='paymentMethod'>
+        <option>Visa</option>
+        <option>MasterCard</option>
+      </select>
+
+      <!-- Credit Card Number -->
+      <label for='cardNumber'>Credit Card Number</label>
+      <input type='text' name='cardNumber' />
+
+      <!-- Credit Card Holder Name -->
+      <label for='cardholderName'>Cardholder Name</label>
+      <input type='text' name='cardholderName' />
+
+      <!-- Credit Card Holder Email -->
+      <label for='cardholderEmail'>Cardholder Email</label>
+      <input type='text' name='cardholderEmail' />
+
+      <!-- Expiration Date -->
+      <label for='cardDate'>Expiration Date</label>
+      <input type='text' name='cardDate' />
+
+      <!-- CVV Card Number -->
+      <label for='cvv'>CVV</label>
+      <input type='text' name='cvv' />
+
+      <button id='makePayment'>MAKE A PAYMENT</button>
+    </aside>
+    <aside id='description'>
+      <h2 id="title">Title</h2>
+      <h3 id="category">Category</h3>
+      <img src='asset/pdf.png'>
+      <h1>$<span id="price">price</span></h1>
+      <button id='editOrder'>Edit the Order</button>
+    </aside>
+  </main>
+</section>
+</body>
+</html>
